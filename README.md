@@ -74,9 +74,6 @@ Note: For nested Operations, inputs always multiplies. so its comes under Quadra
 _`while calculating BIG-O we always consider worst case scenario.`_
 
 ###### *BIG O cheat sheet*
-==> look into *BigO-cheat-sheet.pdf* file.
-https://www.bigocheatsheet.com/
-
 **-Big Os-**
 
 1. O(1) Constant- no loops
@@ -133,7 +130,7 @@ It may seem funny that multiplying no numbers together results in 1, but let's f
 
 And in many equations using 0! = 1 just makes sense.
 
-#Space complexity
+# Space complexity
 ### Space complexity O(1)
     function boooo(n) {
         for (let i = 0; i < n; i++) {
@@ -159,3 +156,5 @@ Here `let i=0` takes 1 space i.e O(1) but datastructure Array is **_getting assi
 
 ### Array Sorting Algorithms
 ![img_7.png](images/img_7.png)
+
+Reference: https://www.bigocheatsheet.com/
