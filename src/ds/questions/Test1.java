@@ -27,10 +27,11 @@ public class Test1 {
     //2nd approach is binary search here big O(n log n)
     public static ArrayList<Integer> binarySearchSolution(int[] intArray, int result){
         ArrayList<Integer> found = new ArrayList<>();
+        // TODO need to implement
         return  found;
     }
 
-    //2nd approach is binary search here big O(n log n)
+    //3nd approach is linear search here big O(n)
     public static ArrayList<Integer> linearSearchSolution(int[] intArray, int result){
         ArrayList<Integer> found = new ArrayList<>();
         for (int i=0; i<intArray.length;i++){
