@@ -2,9 +2,9 @@
 1. There is a list of numbers, in that list find out the sum of any two number is 8.
     + list is shorted.
     
-**Refer** Question1.java
+   **Refer** Question1.java
 2. Suppose we had an algorithm that took array of strings, sorted each string, and then sorted the full array. what would the runtime be?
-**Refer** Question2.jave
+    **Refer** Question2.jave
    
         void binarySearch(int[] intArray, int n){
             int l=0,r=n-1,mid=0;
