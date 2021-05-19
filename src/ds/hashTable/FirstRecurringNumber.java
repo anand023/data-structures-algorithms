@@ -20,7 +20,7 @@ public class FirstRecurringNumber {
         System.out.println(findFirstRecurring2(new int[]{5,6,6,7,18,10,5}));
     }
 
-    // Big O(n)
+    // Big O(n) -- Time complexity & O(n) -- space complexity bcz we created HashTable for n elements of array.
     public static int findFirstRecurring(int[] a){
         Hashtable<Integer, Integer> hash=new Hashtable(); //keeping {key : a[i], value : i}
         for (int i=0; i<a.length; i++){
@@ -32,7 +32,7 @@ public class FirstRecurringNumber {
         }
         return -1;
     }
-    // Big O(n^2)
+    // Big O(n^2) -- Time complexity & O(1) -- space complexity bcz we didn't any any number of variable means any array or map
     public static int findFirstRecurring2(int[] a){
         //{5,6,6,7,18,10,5}
         int index=-1;
