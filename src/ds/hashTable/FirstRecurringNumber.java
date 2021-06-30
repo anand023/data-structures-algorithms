@@ -10,8 +10,6 @@ package ds.hashTable;
 //Given an array = [2,3,4,5]:
 //It should return undefined
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Hashtable;
 
 public class FirstRecurringNumber {
